@@ -1,0 +1,92 @@
+/**
+ * Owl Carousel v2.3.4
+ * Copyright 2013-2018 David Deutsch
+ * Licensed under: SEE LICENSE IN https://github.com/OwlCarousel2/OwlCarousel2/blob/master/LICENSE
+ */
+/*
+ * 	Default theme - Owl Carousel CSS File
+ */
+ .containermargin { 
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+ 
+ 	  
+	  .owl-nav {
+    position: absolute;
+    top: 57%;
+    width: 100%;
+    text-align: left;
+    font-size: 50px;
+    color: #00159c; }
+		 .owl-nav img{
+		width:70%;
+	}
+    .owl-nav .owl-prev {
+      position: relative;
+      left: 10px;
+      background: none; }
+    .owl-nav .owl-next {
+      position: relative;
+      float: right;
+      right: 10px;
+      background: none; }
+    .owl-nav .owl-stage-outer {
+      position: relative;
+      z-index: 1; }
+	
+ 
+ 
+.owl-theme .owl-nav {
+  margin-top: 10px;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme .owl-nav [class*='owl-'] {
+    color: #FFF;
+    font-size: 14px;
+    margin: 5px;
+    padding: 4px 7px;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 3px; }
+    .owl-theme .owl-nav [class*='owl-']:hover {
+      1background: #869791;
+      color: #FFF;
+      text-decoration: none; }
+  .owl-theme .owl-nav .disabled {
+    opacity: 0.5;
+    cursor: default; }
+
+.owl-theme .owl-nav.disabled + .owl-dots {
+  margin-top: 10px; }
+
+.owl-theme .owl-dots {
+  text-align: center;
+  -webkit-tap-highlight-color: transparent; }
+  .owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    *display: inline; 
+	background:transparent;
+	}
+    .owl-theme .owl-dots .owl-dot span {
+	  outline: 2px solid #67bbe5;
+      outline-offset: 2px;  
+      width: 10px;
+      height: 10px;
+      margin: 15px 7px;
+      display: block;
+      -webkit-backface-visibility: visible;
+      transition: opacity 200ms ease;
+      border-radius: 30px; 
+	  background:transparent; 
+	  }
+    .owl-theme .owl-dots .owl-dot.active span, .owl-theme .owl-dots .owl-dot:hover span {
+	  background: #67bbe5;
+	  }
+	  
+	  
+	  
+	  
+

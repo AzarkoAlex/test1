@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>test</title>
+
+<script>					
+
+</script>
+
+
+<link rel="stylesheet" href="css/styles.css">
+<!--
+<link rel="stylesheet" href="css/fonts.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/feedback.css">
+<link rel="stylesheet" href="css/menu.css">
+<link rel="stylesheet" href="css/slider.css">
+-->
+
+<script src="js/jquery-3.0.0.slim.min.js"></script>
+
+<link rel="stylesheet" href="js/owl/owl.carousel.css">
+<link rel="stylesheet" href="js/owl/owl.themenew.css">
+<script src="js/owl/owl.carousel.min.js"></script>
+
+<script src="js/main.js"></script>
+
+<style type="text/css">
+
+ 
+</style>
+
+
+<script type="text/javascript">
+
+ function initOwl()
+    {
+
+ $(".carouselspec1").owlCarousel({
+        autoplayTimeout:4000,
+		autoplaySpeed:1000,
+		autoplayHoverPause:true,
+		autoplay:true,
+            lazyContent:true,
+            navSpeed: 500,
+            dotsSpeed: 500,
+            dots:false,
+            nav:true,
+			margin:10,
+			navText: ["<img src='images/arrowl.png'>","<img src='images/arrowr.png'>"],
+            responsive: {
+                0: {
+                    nav:false,
+                    center:true,
+                    items:1,
+                },
+                768: {
+                    items:1,
+                },
+                1300: {
+                    nav:true,
+                    items:1,
+                }
+            }
+        });  
+		
+		$(".carouselspec1 .owl-nav").addClass("container");
+		$(".carouselspec1 .owl-nav").addClass("containermargin");
+		
+    }
+	
+
+  jQuery(function ($) {
+
+    initOwl();
+  });
+
+
+</script>
+
+</head>
+
+<body>
+
+<div class="wrapall">
+
+<header>
+<div class="wrapper-logo">
+  <div class="container">
+	<div class="row-flex">
+     	<div class="logo"><img src="images/logo.png"></div>
+		<div>
+		<div class="phones">+7(499) 777-77-77<br>+7(499) 777-77-77</div>
+		<div class="feedback"><a href="#">Обратная связь</a></div>
+		</div>
+	</div>
+  </div>
+</div>
+</header>
+
+<div class="wrapper-menu sticky">
+  <div class="container">
+	<div class="row">
+     	
+		   <ul>
+		   <li><span><a href="#">Главная</a></span></li>
+		   <li><span><a href="#kat">Каталог</a></span></li>
+		   <li><span><a href="#">Доставка и оплата</a></span></li>
+		   <li><span><a href="#pricelist">Прайс лист</a></span></li>
+		   <li><span><a href="#contact">Контакты</a></span></li>
+		   </ul>
+		   
+	</div>
+  </div>
+</div>
+
+
+
+
+
+<div class="slider">
+  <div class="carouselspec1 owl-carousel owl-loaded owl-drag">
+  
+  <div class="item slider-item" style="background-image: url('images/slider/i1.png');"></div>
+  <div class="item slider-item" style="background-image: url('images/slider/i2.png');"></div>
+  
+</div>
+
+</div>
+
+
+
+
+
+		   
+<content>
+   <div class="container">
+    <div class="row">
+	
+      <div class="info"><a name="kat"></a><span class="lev1">Главная</span> / <span class="lev2">Каталог</span>  /   <span class="lev3">Бытовая техника</span></div>
+	  
+	  <div class="wrapper-content">
+	      <div class="menu-content">
+	      <div class="menu-block">
+            <ul><li><a href="#">Автомобили</a>
+			    <ul>
+                  <li><a href="#">Микроволновки</a></li>
+                  <li><a href="#">Холодильники</a></li>
+                  <li><a href="#">Посудомоечные машины</a></li>
+                  <li><a href="#">Чайники</a></li>
+				 </ul> 
+				</li> 
+              <li><a href="#" class="selected">Бытовая техника</a>
+                <ul>
+                  <li><a class="active" href="#">Микроволновки</a></li>
+                  <li><a href="#">Холодильники</a></li>
+                  <li><a href="#">Посудомоечные машины</a></li>
+                  <li><a href="#">Чайники</a></li>
+				 </ul> 
+				</li> 
+			<li><a href="#">Мобильная техника</a>
+			     <ul>
+			      <li ><a href="#">Микроволновки</a></li>
+                  <li><a href="#">Холодильники</a></li>
+                  <li><a href="#">Посудомоечные машины</a></li>
+                  <li><a href="#">Чайники</a></li>
+    			</ul> 
+				</li> 
+			<li><a href="#">Компьютеры</a>
+			     <ul>
+			      <li ><a href="#">Микроволновки</a></li>
+                  <li><a href="#">Холодильники</a></li>
+                  <li><a href="#">Посудомоечные машины</a></li>
+                  <li><a href="#">Чайники</a></li>
+    			</ul> 
+				</li>
+			<li><a href="#">Одежда</a>
+			     <ul>
+			      <li ><a href="#">Микроволновки</a></li>
+                  <li><a href="#">Холодильники</a></li>
+                  <li><a href="#">Посудомоечные машины</a></li>
+                  <li><a href="#">Чайники</a></li>
+    			</ul> 
+				</li>
+			<li><a href="#">Недвижимость</a>
+			     <ul>
+			      <li ><a href="#">Микроволновки</a></li>
+                  <li><a href="#">Холодильники</a></li>
+                  <li><a href="#">Посудомоечные машины</a></li>
+                  <li><a href="#">Чайники</a></li>
+    			</ul> 
+				</li>
+            </ul>
+			</div><!--"menu-block-->
+	     
+		 
+		 <div class="price-list">
+           <a name="pricelist"></a>
+		 <a href="#">
+		    <img src="images/MS-EXCEL.png">
+			<div>Прайс-лист</div>
+			
+		</a>
+		  </div>
+		  
+		  </div><!--menu-content-->		  
+		  
+<div class="right_block">		  
+		     
+		  
+
+
+
+<div class="items">
+
+<div class="item">
+			   <div class="item-wrapper">
+			   	  <img src="images/catalog/i1.png">
+				  <div class="text-wrapper">
+					 Самый клёвый чайник, который надо купить! <span></span>
+				   </div>
+				   <div class="cena-wrapper">
+					   <span class="cena">
+					      1900 р.
+					   </span>
+					   
+					      <img src="images/catalog/addtobasket_mini.png">
+				   </div>
+			   </div>
+</div>	
+
+<div class="item">
+			   <div class="item-wrapper">
+			   	  <img src="images/catalog/i1.png">
+				  <div class="text-wrapper">
+					 Самый клёвый чайник, который надо купить! <span></span>
+				   </div>
+				   <div class="cena-wrapper">
+					   <span class="cena">
+					      1900 р.
+					   </span>
+					   
+					      <img src="images/catalog/addtobasket_mini.png">
+				   </div>
+			   </div>
+</div>	
+
+<div class="item">
+			   <div class="item-wrapper">
+			   	  <img src="images/catalog/i1.png">
+				  <div class="text-wrapper">
+					 Самый клёвый чайник, который надо купить! <span></span>
+				   </div>
+				   <div class="cena-wrapper">
+					   <span class="cena">
+					      1900 р.
+					   </span>
+					   
+					      <img src="images/catalog/addtobasket_mini.png">
+				   </div>
+			   </div>
+</div>	
+
+<div class="item">
+			   <div class="item-wrapper">
+			   	  <img src="images/catalog/i1.png">
+				  <div class="text-wrapper">
+					 Самый клёвый чайник, который надо купить! <span></span>
+				   </div>
+				   <div class="cena-wrapper">
+					   <span class="cena">
+					      1900 р.
+					   </span>
+					   
+					      <img src="images/catalog/addtobasket_mini.png">
+				   </div>
+			   </div>
+</div>	
+
+
+</div>	
+
+
+	
+
+<div class="paginator_wrapper">
+	<div class="paginator">
+		<span>1</span><span>2</span><span class="selected">3</span><span>4</span><span>5</span><span>6</span><span>7</span>
+	</div>
+</div>
+
+<div class="text-block-wrapper">
+	 <div class="text-block">
+          <div class="text-block-page">
+Компания «Пиксель Плюс» существует более 6 лет, за это время мы принимали участие в разработке более чем 700 сайтов, поэтому можем уверенно называть себя профессионалами. На данный момент наш коллектив состоит из более чем 30 сотрудников работающих в двух офисах в Москве и Зеленограде.характерные для этого жанра мотивы: неразделённой любви, ухода молодости, угасания души. 
+           </div>
+           <div class="text-block-page">
+Одним из основных направлений работ нашей компании является поисковое продвижение сайтов, на данной момент мы работаем с более чем 150 постоянными клиентами по более чем 11 000 поисковым запросам. При этом в работе основной акцент мы делаем на качестве работ, а так же применяем собственные уникальные разработки в области SEO продвижения. На данный момент отдел SEO состоит из 9 человек под руководством ведущего специалиста, преимущественно работающих в нашем московском офисе.
+           </div>
+
+     </div>
+ </div>
+ <!--
+-->
+</div>	<!--right_block-->
+			 
+			 
+			 
+	  </div>
+	  
+    </div>
+   </div>
+</content>
+
+
+
+
+
+
+<footer>	
+
+<div class="container">
+  <div class="row">
+  <div class="footer-wrapper">
+  <div class="footer-item">
+  <a name="contact"></a>   
+<a href="name.ru">© 2012–2013 ЗАО «Компания»</a><br>
+<a href="mailto:info@name.ru?subject=Покупка бытовой техгики">info@name.ru</a>
+  </div> 
+  
+  <div class="footer-item">
+   <ul>
+    <li><span><a href="#">Главная</a></span></li>
+    <li><span><a href="#kat">Каталог</a></span></li>
+    <li><span><a href="#">Доставка и оплата</a></span></li>
+    <li><span><a href="#pricelist">Прайс лист</a></span></li>
+    <li><span><a href="#contact">Контакты</a></span></li>
+   </ul>
+  </div>
+  
+  <div class="footer-item flex-item">
+  
+  <img src="images/company.png">
+  <div>
+  <a href="http://pixelplus.ru">
+Разработка сайта —<br> 
+компания «Пиксель Плюс»
+</a>
+ </div>
+ 
+  </div> 
+  
+</div>
+</div>
+</div>
+</footer>	
+
+
+
+
+
+
+<div  id="feedback-form" class="feedback-form">
+<div class="title">ОБРАТНАЯ СВЯЗЬ</div>
+<form name="form1" method="get" action="dumb.htm" onsubmit="return validate_form();">
+   
+   <div class="text-field">
+    <label class="text-field__label" for="name">Ваше имя *</label>
+    <input class="text-field__input" type="text" name="name" id="feedback-name" placeholder="имя" value="1" maxlength="50" >
+   </div>
+
+   <div class="text-field">
+    <label class="text-field__label" for="phone">Телефон *</label>
+    <input class="text-field__input" type="text" name="phone" id="feedback-phone" placeholder="телефон" value="1" maxlength="50"  >
+   </div>
+
+   <div class="text-field">
+    <label class="text-field__label" for="phone">Email *</label>
+    <input class="text-field__input" type="text" name="email" id="feedback-email" placeholder="email" value="test@mail.ru" maxlength="50"  >
+   </div>
+   
+   <div class="text-field">
+    <label class="text-field__label" for="message">Сообщение</label>
+    
+	<TEXTAREA  NAME="message" id="feedback-message" class="text-field__input message">Default text area</TEXTAREA>
+   
+   </div>
+
+
+<input type="submit" name="send" class="send" value="ОТПРАВИТЬ">
+
+</form>
+   <div class="closeform">x</div>
+   </div>
+
+</div><!--feedback-form-->
+
+
+
+
+  
+   <div id="fade" class="black-overlay"></div>  
+
+	
+	
+	
+	
+	
+	
+	
+	
+<div><!--wrapall-->	
+	
+</body>

@@ -1,0 +1,15 @@
+.slider {
+	background:#f8f8f8;
+}
+ .slider-item{
+  width:1248px;
+  margin:0 auto;
+ height:462px;	
+ margin-top:19px;
+ background-position:bottom;
+ background-repeat: no-repeat;
+1background-size:cover;
+1background-size:contain;
+background:#f8f8f8;
+ }
+ 
