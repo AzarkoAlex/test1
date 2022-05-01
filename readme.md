@@ -1,2 +1,2 @@
 test1 
-test from pixrlplus.tu
+test from pixelplus.tu
