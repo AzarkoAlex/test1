@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Menu</title>
+
+<link rel="stylesheet" href="css/fonts.css">
+
+<style>
+
+
+#primary_nav_wrap
+{
+	margin-top:15px
+}
+
+#primary_nav_wrap ul
+{
+	list-style:none;
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0;
+	1border:1px solid black;
+	box-shadow: 4px 4px 8px 0px rgba(34, 60, 80, 0.2);
+	
+	background:#eef;
+}
+
+#primary_nav_wrap ul a
+{
+	
+	display:block;
+	color:#333;
+	text-decoration:none;
+	font-weight:700;
+	font-size:12px;
+	line-height:32px;
+	padding:0 15px;
+	/*font-family:"HelveticaNeue","Helvetica Neue",Helvetica,Arial,sans-serif;*/
+	border-bottom: 1px solid #ccc;
+}
+
+#primary_nav_wrap ul li
+{
+	position:relative;
+	float:left;
+	margin:0;
+	padding:0
+	
+}
+
+#primary_nav_wrap ul li.current-menu-item
+{
+	background:#ddd;
+	
+}
+
+#primary_nav_wrap ul li:hover
+{
+	background:#f6f6f6;
+	background:#e0e0f6
+}
+
+#primary_nav_wrap ul ul
+{
+	display:none;
+	position:absolute;
+	top:100%;
+	left:0;
+	1background:#ccf;
+	padding:0
+}
+
+#primary_nav_wrap ul ul li
+{
+	float:none;
+	width:200px;
+	
+}
+
+#primary_nav_wrap ul ul a
+{
+	line-height:120%;
+	padding:10px 15px
+}
+
+#primary_nav_wrap ul ul ul
+{
+	top:0;
+	left:100%
+}
+
+#primary_nav_wrap ul li:hover > ul
+{
+	display:block
+}
+
+</style>
+
+
+</head>	
+
+<body>
+<nav id="primary_nav_wrap">
+    <ul>
+        <li><a href="#">Nieuws</a></li>
+        <li><a href="#">Info &#x25BC;</a>
+            <ul>
+                <li><a href="scouts_taf&toetje.html">Taf & Toetje</a></li>
+                <li><a href="scouts_papierwerk.html">Papierwerk</a></li>
+                <li><a href="scouts_uniform.html">Uniform</a></li>
+                <li><a href="https://www.scoutsengidsenvlaanderen.be/technieken-databank">Technieken</a></li>
+            </ul>
+        </li>
+        <li><a href="scouts_afspraken.html">Algemeen</a></li>
+        <li><a href="scouts_fotos.php">Foto's</a></li>
+        <li><a href="scouts_inschrijven.html">Inschrijven</a></li>
+        <li><a href="scouts_contact.html">Contact</a></li>
+        <li><a href="#">Permekiaan &#x25BC;</a>
+            <ul>
+                <li class="dir"><a href="#">Kapoenen &#x261b;</a>
+                    <ul>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Activiteiten</a></li>
+                    </ul>
+                </li>
+                <li class="dir">
+                    <a href="#">Kawellen &#x261b;</a>
+                    <ul>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Activiteiten</a></li>
+                    </ul>
+                </li>
+                <li class="dir">
+                    <a href="#">Jong-Givers &#x261b;</a>
+                    <ul>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Activiteiten</a></li>
+                    </ul>
+                </li>
+                <li class="dir">
+                    <a href="#">Givers &#x261b;</a>
+                    <ul>
+                        <li><a href="#" >Info &#x261b;</a>
+						<ul>
+                        <li><a href="#">Info</a></li>
+                        <li><a href="#">Activiteiten</a></li>
+                    </ul>
+						</li>
+                        <li><a href="#">Activiteiten</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </li>
+        <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+</body>

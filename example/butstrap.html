@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html>
+
+<script  src="bootstrap/js/jquery-3.0.0.slim.min.js"></script>
+
+<link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css">
+<script  src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<style type="text/css">
+	
+body {
+    background-color: #ccc;
+   1padding: 30px;
+   text-align: center;
+}
+
+.d1{
+	width: 1200px;
+	height: 400px;
+	margin: 0 auto;
+	background-image: url(headerb1.png);
+	1background-position: -200px -200px;
+	background-repeat: no-repeat;
+	background-size: 50% 120%;
+	background-clip: ;
+}
+
+
+
+
+
+nav ul li{
+	display: inline-block;
+	margin-right: 30px;
+	padding-right: 30px;
+	border-right:1px solid #fff;
+}
+
+
+nav ul li:last-child {
+    margin-right: 0;
+    border-right:none;
+}
+
+
+nav ul li a {
+    
+    color: #fff;
+    font-family: "Times New Roman";
+	font-size: 30px;
+	display: block;
+	position: relative;
+	text-decoration: none;
+	
+}
+nav ul li a::after {
+    content: "";
+    background-color: #dfd;
+    display: block;
+	position: absolute;
+	bottom: -10px;
+	right: 0;
+	width: 0;
+	height: 3px;
+    
+}
+nav ul li a:hover::after {
+    width: 100%;
+    transition: width 1s;
+}
+/**/
+</style>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>111</title>
+</head>
+<body>
+
+111111111111111111
+
+	<div class="d1">
+
+     <nav>
+     	<ul>
+     		<li><a href="#">1Привет</a></li>
+     		<li><a href="#">2Ответ</a></li>
+     		<li><a href="#">33333333</a></li>
+     		<li><a href="#">44444444</a></li>
+     		<li><a href="#">55555555</a></li>
+     		<li><a href="#">66666666</a></li>
+     	</ul>
+     </nav>
+     </div>
+
+<button type="button" class="close" aria-label="Close">
+  <span aria-hidden="true">&times;</span>
+</button>
+<div class="card border-primary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <div class="card-body text-primary">
+    <h5 class="card-title">Primary card title</h5>
+    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+  </div>
+</div>
+<div class="card border-primary mb-3" style="max-width: 18rem;">
+  <div class="card-header">Header</div>
+  <blockquote class="blockquote mb-0">
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+      <footer class="blockquote-footer">Someone famous in <cite title="Source Title">Source Title</cite></footer>
+    </blockquote>
+</div>
+
+
+
+<div id="accordion">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h5 class="mb-0">
+        <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Разворачиваемая панель #1
+        </button>
+      </h5>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Разворачиваемая панель #2
+        </button>
+      </h5>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h5 class="mb-0">
+        <button class="btn btn-link collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Разворачиваемая панель #3
+        </button>
+      </h5>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+      <div class="card-body">
+        Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. 3 wolf moon officia aute, non cupidatat skateboard dolor brunch. Food truck quinoa nesciunt laborum eiusmod. Brunch 3 wolf moon tempor, sunt aliqua put a bird on it squid single-origin coffee nulla assumenda shoreditch et. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident. Ad vegan excepteur butcher vice lomo. Leggings occaecat craft beer farm-to-table, raw denim aesthetic synth nesciunt you probably haven't heard of them accusamus labore sustainable VHS.
+      </div>
+    </div>
+  </div>
+</div>
+<style>
+ #accordion2{
+ text-align:left;
+ }
+ #accordion2 ul{
+ 1text-align:left;
+ }
+ 
+</style>
+
+<ul id="accordion2">
+    <li class=""  id="l1" data-toggle="collapse" data-target="#test1"><a href="#i1">11111111</a>
+        <ul class="nav-list collapse  show" id="test1" aria-labelledby="l1" data-parent="#accordion2">
+		   <li><a href="#">1Привет</a></li>
+		   <li><a href="#">2Ответ</a></li>
+		   <li><a href="#">33333333</a></li>
+		   <li><a href="#">44444444</a></li>
+		   <li><a href="#">55555555</a></li>
+		</ul>
+	</li>
+	<li class=""  id="l2" data-toggle="collapse" data-target="#test2"><a href="#i2">22222222</a>     
+        <ul class="nav-list collapse" id="test2" aria-labelledby="l2" data-parent="#accordion2">
+		   <li><a href="#">1Привет</a></li>
+		   <li><a href="#">2Ответ</a></li>
+		   <li><a href="#">33333333</a></li>
+		   <li><a href="#">44444444</a></li>
+		   <li><a href="#">55555555</a></li>
+		</ul>
+	</li>
+</ul>			
+
+
+
+</html>
