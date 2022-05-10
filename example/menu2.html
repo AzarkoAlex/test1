@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.d1{
+   font-family:Courier;
+   background:#cc5;
+   font-size:25px;
+   padding:5px 0;
+}
+ul{
+    padding: 0;
+	margin:0;
+}
+ul li{
+   display:inline;
+   position:relative;
+   padding:5px 10px;
+   margin:0;
+  
+}
+li ul li{
+display:block;
+width:200px;
+margin:1px;
+box-shadow: 1px 6px 8px 0px rgba(34, 60, 80, 0.5);  
+}
+li ul {
+   position:absolute;
+   top:1.5em;
+   left:0px;
+   
+}
+li ul li ul{
+   position:absolute;
+   top:0px;
+   left: 220px;
+   
+}
+
+li{
+   background:#ccf;
+  padding:5px 15px;
+  1border: 1px solid blue;
+   
+}
+
+li:hover, li a:hover 
+   { 
+   background: #FFDEB0;
+   
+   }
+   
+   li >ul{
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 500ms ease-in;
+   }
+   li:hover >ul{
+    visibility: visible;
+    opacity: 1;   
+   }
+   
+   
+   
+</style>
+</head>
+<body>
+<div class="d1">
+<ul>
+<li>111<ul>
+	<li>111
+	<ul>
+		<li>111<ul>
+			<li>111</li>
+			<li>222</li>
+			<li>333</li>
+			<li>444</li>
+			<li>555</li>
+			<li>666</li>
+			</ul>
+		</li>
+		<li>222</li>
+		<li>333</li>
+		<li>444</li>
+		<li>555</li>
+		<li>666</li>
+		</ul>
+	</li>
+	<li>222</li>
+	<li>333</li>
+	<li>444</li>
+	<li>555</li>
+	<li>666</li>
+	</ul>
+</li>
+<li>222
+<ul>
+	<li>111<ul>
+		<li>111</li>
+		<li>222</li>
+		<li>333</li>
+		<li>444</li>
+		<li>555</li>
+		<li>666</li>
+		</ul>
+	</li>
+	<li>222</li>
+	<li>333</li>
+	<li>444</li>
+	<li>555</li>
+	<li>666</li>
+	</ul>
+</li>
+<li>333</li>
+<li>444</li>
+<li>555</li>
+<li>666</li>
+</ul>
+
+</div>
+</body>
+</html>
